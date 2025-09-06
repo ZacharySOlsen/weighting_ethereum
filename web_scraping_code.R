@@ -17,7 +17,7 @@ main_repos = tibble(repo = main_repos)
 main_repos = main_repos |> mutate(repo = str_remove(repo, "https://github.com/"))
 
 # Token so that I can do 5000 requests per hour.
-token = "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"
+token = "add here"
 
 # Fuctions for Github API downloads
 
